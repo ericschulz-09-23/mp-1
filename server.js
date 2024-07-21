@@ -8,7 +8,7 @@ const appointmentsRouter = require('./routes/appointments')
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(cor());
+app.use(cors());
 app.use(bodyParser.json());
 
 //connect to MongoDB
@@ -24,9 +24,9 @@ connection.once('open', () => {
 });
 
 app.use('/patients', patientsRouter);
-app.use('/doctor', doctorRouter);
+app.use('/doctor', doctorsRouter);
 app.use('/appointments', appointmentsRouter);
 
 app.listen(PORT, ()=> {
-    console.log(`Aerver is running on port ${PORT}`);
+    console.log(`Server is running on port ${PORT}`);
 });

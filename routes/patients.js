@@ -48,7 +48,7 @@ router.route('/add')
         })
         .catch(err => res.status(400).json('Error+' + err));
     })
-    .catch(err => res.status(400).json('Error:'+ err));
+    // .catch(err => res.status(400).json('Error:'+ err));
 
     //Delet patient by ID
     router.route('./delete/:id')

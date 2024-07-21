@@ -1,0 +1,105 @@
+.patient-main {
+    display: flex;
+ 
+}
+ 
+.form-sections {
+    width: 45%;
+    margin-right: 20px;
+    height: 400px;
+ 
+}
+ 
+.patients-section {
+    width: 45%;
+}
+ 
+.patient-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+ 
+    &:hover {
+        transform: scale(1.02);
+    }
+ 
+    h4 {
+        margin-bottom: 8px;
+    }
+ 
+    p {
+        margin: 8px 0;
+    }
+ 
+    button {
+        margin-top: 8px;
+        cursor: pointer;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 8px;
+        cursor: pointer;
+ 
+        &:hover {
+            background-color: #0056b3;
+        }
+    }
+}/* /src/components/Patients.css  */
+ 
+.patient-main {
+    display: flex;
+ 
+}
+ 
+.form-sections {
+    width: 45%;
+    margin-right: 20px;
+    height: 400px;
+ 
+}
+ 
+.patients-section {
+    width: 45%;
+}
+ 
+.patient-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+ 
+    &:hover {
+        transform: scale(1.02);
+    }
+ 
+    h4 {
+        margin-bottom: 8px;
+    }
+ 
+    p {
+        margin: 8px 0;
+    }
+ 
+    button {
+        margin-top: 8px;
+        cursor: pointer;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 8px;
+        cursor: pointer;
+ 
+        &:hover {
+            background-color: #0056b3;
+        }
+    }
+}
